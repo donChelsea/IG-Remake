@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "403625351392",
+    "project_id": "ig-remake-321520",
+    "storage_bucket": "ig-remake-321520.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403625351392:android:efcb511e57adbbf7661885",
+        "android_client_info": {
+          "package_name": "com.example.ig_remake"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "403625351392-sd9das7p5e0ei2siro1peujsntf58aff.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmp-WXRwd2nfF5wtZA7ulnMvMtiP1YIcY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "403625351392-sd9das7p5e0ei2siro1peujsntf58aff.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

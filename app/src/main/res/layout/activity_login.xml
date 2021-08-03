@@ -4,16 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".presentation.LoginActivity">
-
+    android:background="@color/browser_actions_bg_grey"
+    tools:context=".presentation.authentication.LoginActivity">
 
     <EditText
-        android:id="@+id/login_username"
+        android:id="@+id/login_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="20dp"
         android:layout_marginTop="250dp"
-        android:hint="@string/username"
+        android:hint="@string/email"
+        android:background="@drawable/rounded_edittext"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
@@ -21,8 +22,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
         android:hint="@string/password"
-        app:layout_constraintTop_toBottomOf="@id/login_username" />
+        android:background="@drawable/rounded_edittext"
+        app:layout_constraintTop_toBottomOf="@id/login_email" />
 
     <Button
         android:id="@+id/login_button"

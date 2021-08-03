@@ -9,14 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.IGRemake">
-        <activity android:name=".presentation.LoginActivity">
+        <activity android:name=".presentation.messages.MessagesActivity" />
+        <activity android:name=".presentation.authentication.RegisterActivity" />
+        <activity android:name=".presentation.authentication.LoginActivity" />
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>
